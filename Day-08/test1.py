@@ -1,0 +1,1 @@
+random_list=['a',0,2,]

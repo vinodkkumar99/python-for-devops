@@ -1,9 +1,8 @@
 import re
+text = "My name is Vinod Kumar and age is 25 years"
 
-text = "The quick brown fox jumps over the lazy brown dog"
-pattern = r"brown"
+pattern = r"Vinod Kumar"
+replace = "Vinod Kumar K"
 
-replacement = "red"
-
-new_text = re.sub(pattern, replacement, text)
-print("Modified text:", new_text)
+new_text = re.sub(pattern, replace, text)
+print("mofified text:",new_text)

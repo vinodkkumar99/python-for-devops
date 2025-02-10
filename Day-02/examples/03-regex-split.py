@@ -1,7 +1,6 @@
 import re
+text='abc,def,ghi,jkl'
+pattern=r","
 
-text = "apple,banana,orange,grape"
-pattern = r","
-
-split_result = re.split(pattern, text)
-print("Split result:", split_result)
+new_text=re.split(pattern,text)
+print('new_text:',new_text)

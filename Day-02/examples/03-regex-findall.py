@@ -1,10 +1,9 @@
 import re
+text = "The rain in Spain"
+pattern = r"in"
 
-text = "The quick brown fox"
-pattern = r"brown"
-
-search = re.search(pattern, text)
+search=re.search(pattern, text)
 if search:
-    print("Pattern found:", search.group())
+    print("pattern found:",search.group())
 else:
-    print("Pattern not found")
+    print("pattern not found")
